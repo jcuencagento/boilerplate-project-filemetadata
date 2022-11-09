@@ -19,6 +19,7 @@ body {
 
 a {
   color: #2574A9;
+  text-decoration: none;
 }
 
 input {
@@ -29,13 +30,17 @@ input {
 
 input#button {
   width: 230px;
+  background-color: navajowhite;
 }
 
 .view {
   position:relative;
   margin: auto;
   margin-top: 40px;
-  border: 1px  solid  #aaa;
+  border: 2px  solid  #aaa;
+  background-color: #c2d0d3;
+  border: 2px solid black;
+  border-radius: 30px;
   padding: 20px;
   width: 60%;
   min-width: 400px;
